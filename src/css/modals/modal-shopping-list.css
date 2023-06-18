@@ -28,6 +28,11 @@
   transition: opacity 700ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal__close{
+  position: absolute;
+  top: 31px;
+  right: 31px;
+}
 
 
 .modal__shopping-button{
@@ -44,12 +49,37 @@
   cursor: pointer;
 } 
 
+.storage-button-wrapper{ 
+  width: 200px;
+  height: 24px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #111111;
 
-
-
-.modal__close{
-  position: absolute;
-  top: 31px;
-  right: 31px;
 }
+
+.remove-storage-btn{
+  width: 299px;
+  height: 24px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #111111;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+
 
